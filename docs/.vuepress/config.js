@@ -68,6 +68,13 @@ module.exports = {
           'chapter6/overload',
           'chapter6/generic'
         ]
+      },
+      {
+        'title': 'ts-axios 拦截器实现',
+        collapsable: false,
+        children: [
+          'chapter7/interceptor'
+        ]
       }
     ]
   }
