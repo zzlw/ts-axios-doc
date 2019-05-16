@@ -75,6 +75,15 @@ module.exports = {
         children: [
           'chapter7/interceptor'
         ]
+      },
+      {
+        'title': 'ts-axios 配置化实现',
+        collapsable: false,
+        children: [
+          'chapter8/merge',
+          'chapter8/transform',
+          'chapter8/create'
+        ]
       }
     ]
   }
