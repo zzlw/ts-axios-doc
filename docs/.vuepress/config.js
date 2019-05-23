@@ -84,6 +84,13 @@ module.exports = {
           'chapter8/transform',
           'chapter8/create'
         ]
+      },
+      {
+        'title': 'ts-axios 取消功能实现',
+        collapsable: false,
+        children: [
+          'chapter9/cancel'
+        ]
       }
     ]
   }
