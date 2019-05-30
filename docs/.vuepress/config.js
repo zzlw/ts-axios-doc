@@ -91,6 +91,20 @@ module.exports = {
         children: [
           'chapter9/cancel'
         ]
+      },
+      {
+        'title': 'ts-axios 更多功能实现',
+        collapsable: false,
+        children: [
+          'chapter10/withCredentials',
+          'chapter10/xsrf',
+          'chapter10/upload-download',
+          'chapter10/auth',
+          'chapter10/validateStatus',
+          'chapter10/paramsSerializer',
+          'chapter10/baseURL',
+          'chapter10/static'
+        ]
       }
     ]
   }
