@@ -105,6 +105,22 @@ module.exports = {
           'chapter10/baseURL',
           'chapter10/static'
         ]
+      },
+      {
+        'title': 'ts-axios 单元测试',
+        collapsable: false,
+        children: [
+          'chapter11/preface',
+          'chapter11/jest',
+          'chapter11/helpers',
+          'chapter11/requests',
+          'chapter11/headers',
+          'chapter11/instance',
+          'chapter11/interceptor',
+          'chapter11/mergeConfig',
+          'chapter11/cancel',
+          'chapter11/more'
+        ]
       }
     ]
   }
