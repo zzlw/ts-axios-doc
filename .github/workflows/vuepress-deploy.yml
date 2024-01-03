@@ -8,10 +8,10 @@ jobs:
       uses: actions/checkout@master
 
     - name: vuepress-deploy
-      uses: zzlw/vuepress-deploy-demo-target@master
+      uses: zzlw/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: zzlw/ts-axios-doc
+        TARGET_REPO: zzlw/vuepress-deploy-demo-target
         TARGET_BRANCH: master
         BUILD_SCRIPT: npm i && npm i docs:build
         BUILD_DIR: dist
