@@ -13,5 +13,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: zzlw/vuepress-deploy-demo-target
         TARGET_BRANCH: master
-        BUILD_SCRIPT: npm i && npm i docs:build
+        BUILD_SCRIPT: npm i && npm run docs:build
         BUILD_DIR: dist
